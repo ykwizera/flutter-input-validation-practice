@@ -34,7 +34,6 @@ class _AddressScreenState extends State<AddressScreen> {
 
   void _submitForm() {
     if (_formKey.currentState!.validate()) {
-      // Show success dialog with all collected information
       showDialog(
         context: context,
         builder: (context) => AlertDialog(
